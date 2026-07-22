@@ -32,7 +32,7 @@ def preprocess_data(input_path, output_path=None):
 
 if __name__ == "__main__":
     BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-    input_path = os.path.join(BASE_DIR, "..", "Lung_Cancer_Dataset.csv")
+    input_path = os.path.join(BASE_DIR, "..", "Cancer_Raw.csv")
     output_path = os.path.join(BASE_DIR, "cancer_preprocessing.csv")
 
     df_clean = preprocess_data(input_path, output_path)
